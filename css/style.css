@@ -101,8 +101,11 @@ li{
     border: 2px solid #aa7408;
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
     transform: translateY(-20px);
-    cursor: default;
-    color:#d09a2e
+    cursor: pointer;
+    color:#d09a2e;
+}
+.extra-div>h3{
+    color: #aa7408!important;
 }
  
 .fa {
@@ -173,11 +176,13 @@ li{
     color:white;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-.contactus h5:hover{
-    color:#996805;
+.contactus h5,h6:hover{
+    color: white!important;
+    cursor: pointer!important;
 }
 .contactus h5,h6{
     margin-top: 80px;
+    color: #996805!important;
 }
 
 .contactus{
@@ -195,4 +200,5 @@ li{
 }
 .socialmedia-icon:hover{
     color:#996805!important;
+    cursor: pointer;
 }
