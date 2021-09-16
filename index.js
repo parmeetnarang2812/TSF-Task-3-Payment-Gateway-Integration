@@ -1,4 +1,3 @@
-  
 var options = {
     "key": "rzp_test_GKFAxLVMY4Z8Ie",
     "amount": "100",
